@@ -1,6 +1,5 @@
 // import logo from './logo.svg';
 import './App.css';
-import Gpt from './chat/Gpt';
 import Container from './day01/props/Container';
 import Colors from './day01/state/Colors';
 import Count from './day01/state/Count';
@@ -15,6 +14,10 @@ import NameRef from './day02/ref/basic/NameRef';
 import Validation from './day02/ref/basic/Validation';
 import CheckMessege from './day02/ref/expert/CheckMessege';
 import ExpertFood from './day02/ref/expert/ExpertFood';
+import LifeCycleContainer from './day03/life-cycle/class/LifeCycleContainer';
+import SideEffect from './day03/life-cycle/function/sideEffect/SideEffect';
+import SideEffectMount from './day03/life-cycle/function/sideEffect/SideEffectMount';
+import SideEffectTask01 from './day03/life-cycle/function/sideEffect/SideEffectTask01';
 
 function App() {
   return (
@@ -31,8 +34,11 @@ function App() {
      {/* <Validation/> */}
      {/* <Check/> */}
      {/* <ExpertFood/> */}
-     <CheckMessege/>
-     {/* <Gpt/> */}
+     {/* <CheckMessege/> */}
+     {/* <LifeCycleContainer/> */}
+     {/* <SideEffectMount/> */}
+     {/* <SideEffect/> */}
+      <SideEffectTask01/>
     </>
   );
 }
